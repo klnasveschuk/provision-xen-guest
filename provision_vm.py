@@ -18,12 +18,16 @@ TEMPLATES = {'xen1-1': [ '192.168.1.30','CentOS6_x64_20GB_1024MB','74ed08a6-71a6
 'xen1-4': [ '192.168.1.30','CentOS7_x64_50GB_2048MB_2CPU','cca8ff4a-444c-4648-5ff0-81209c94ec92' ],\
 'xen1-5': [ '192.168.1.30','Ubuntu14_x64_20GB_1024MB','2644175a-a114-af66-14e6-ebf72414cd98' ],\
 'xen1-6': [ '192.168.1.30','Ubuntu14_x64_50GB_2048MB_2CPU','85ca91ec-8bb1-a274-84f9-d555b2eb40bf' ],\
+'xen1-7': [ '192.168.1.30','Ubuntu16_x64_20GB_1024MB','1c884a08-c7df-efd6-9512-b27bd9082da9' ],\
+'xen1-8': [ '192.168.1.30','Ubuntu16_x64_50GB_2048MB_2CPU','0e4c3f3c-ff08-f995-6e7a-859d540dee4c' ],\
 'xen2-1': [ '192.168.1.31','CentOS6_x64_20GB_1024MB','18f4bbb4-96b0-9534-23dd-f13489043a0d' ],\
 'xen2-2': [ '192.168.1.31','CentOS6_x64_50GB_2048MB_2CPU','4fccd8a0-a168-90d8-ebb1-28c6033922fb' ],\
 'xen2-3': [ '192.168.1.31','CentOS7_x64_20GB_1024MB','8db74efd-0112-12f4-aab3-76509fab91b3' ],\
 'xen2-4': [ '192.168.1.31','CentOS7_x64_50GB_2048MB_2CPU','5ec6fd3f-1266-4110-da2a-ac34203ed310' ],\
 'xen2-5': [ '192.168.1.31','Ubuntu14_x64_20GB_1024MB','1f263170-c69c-9c3f-5061-cf3cc80e2ac9' ], \
-'xen2-6': [ '192.168.1.31','Ubuntu14_x64_50GB_2048MB_2CPU','2a7c8de1-0637-cf6b-6f5c-4ff19ff392f2' ]}
+'xen2-6': [ '192.168.1.31','Ubuntu14_x64_50GB_2048MB_2CPU','2a7c8de1-0637-cf6b-6f5c-4ff19ff392f2' ], \
+'xen2-7': [ '192.168.1.31','Ubuntu16_x64_20GB_1024MB','3db18851-2fe6-8ec1-abea-92fbcb2ec641' ], \
+'xen2-8': [ '192.168.1.31','Ubuntu16_x64_50GB_2048MB_2CPU','967b45b3-218c-5e94-7dd6-b6857eb11452' ]}
 # Make
 def get_profiles(cmd):
 	try:
